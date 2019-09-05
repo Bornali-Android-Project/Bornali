@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#A9CF92">
+
+    <TextView
+        android:id="@+id/a"
+        android:layout_width="120dp"
+        android:layout_height="75dp"
+
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+
+        android:textColor="#BC3232"
+        android:textStyle="bold"
+        android:text="Bornali"
+        android:textSize="35dp" />
+
+
+    <Button
+        android:id="@+id/b"
+        android:layout_width="123dp"
+        android:layout_height="55dp"
+
+        android:layout_alignParentRight="true"
+        android:layout_gravity="right"
+        android:layout_marginTop="275dp"
+        android:layout_marginRight="80dp"
+        android:background="#4F4F4F"
+        android:textColor="#632323"
+        android:textStyle="bold"
+        android:text="Click here"
+        android:textSize="18dp"
+         />
+
+    <ImageView
+        android:id="@+id/imageHappyKidsPlaying"
+        android:layout_width="488dp"
+        android:layout_height="135dp"
+        android:layout_below="@+id/a"
+        android:layout_centerVertical="true"
+
+        android:layout_marginTop="144dp"
+        android:src="@drawable/HappyKidsPlaying" />
+
+    <ImageView
+        android:id="@+id/imageSun"
+        android:layout_width="170dp"
+        android:layout_height="178dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="80dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="80dp"
+        android:src="@drawable/Sun" />
+</RelativeLayout>
